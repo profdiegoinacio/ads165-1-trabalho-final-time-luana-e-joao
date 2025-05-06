@@ -16,29 +16,6 @@ A aplicação é dividida em dois componentes principais:
     - Integra totalmente com o backend, consumindo as APIs REST disponibilizadas pelo Spring Boot.
     - Utiliza **Tailwind CSS** como ferramenta para estilização baseada em classes utilitárias.
 
-O objetivo deste template é acelerar o desenvolvimento de aplicações fullstack modernas que priorizam desempenho, escalabilidade e experiência do usuário.
-
-## **Estrutura do Projeto**
-Abaixo, você encontrará a organização geral dos arquivos do projeto:
-``` 
-root/
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/          # Código fonte Java
-│   │   │   ├── resources/     # Arquivos de configuração (application.properties, etc.)
-│   │   ├── test/              # Testes automatizados para o backend
-│   └── pom.xml                # Configuração do Maven para dependências do backend
-├── frontend/
-│   ├── components/            # Componentes React reutilizáveis
-│   ├── pages/                 # Arquivos para rotas do Next.js
-│   ├── public/                # Arquivos estáticos (imagens, fontes, etc.)
-│   ├── styles/                # Estilos globais ou específicos
-│   ├── tailwind.config.js     # Configuração do Tailwind CSS
-│   └── package.json           # Configuração de dependências e scripts do frontend
-├── .gitignore                 # Arquivos e pastas ignorados pelo Git
-└── README.md                  # Documentação do projeto
-```
 ## **Pré-requisitos**
 Antes de começar, é fundamental garantir que todas as ferramentas requeridas estejam instaladas. Abaixo, a lista de tecnologias necessárias:
 ### Ferramentas Necessárias
@@ -92,3 +69,8 @@ O frontend estará disponível em `http://localhost:3000` por padrão.
 - [Documentação do Next.js](https://nextjs.org/docs)
 
 Com isso, o modelo está pronto para sua evolução. 🚀 Se houver dúvidas, consulte a documentação ou entre em contato com seu instrutor, ou a equipe!
+
+
+## **Sobre o projeto**
+
+A ideia é que seja de uma agenda referente a serviços de pet shop, que possa fazer todas as operações (incluir, excluir e atualizar) nessa agenda dos serviços do pet shop.
